@@ -1,0 +1,28 @@
+﻿@model MVC_TestApp.Models.Orders
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+
+    <form action="~/Charge/Charge" method="post">
+        <script src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="<Enter your Api Key here>"
+                data-amount="3000"
+                data-name="Razorpay"
+                data-description="Purchase Description"
+                data-order_id=@Model.orderId
+                data-image="https://razorpay.com/favicon.png"
+                data-prefill.name="Soubhagya J"
+                data-prefill.email="soubhagyap.sj@gmail.com"
+                data-prefill.contact="9745123012"
+                data-theme.color="#F37254"></script>
+        <input type="hidden" value="Hidden Element" name="hidden">
+    </form>
+
+</body>
+</html>
+

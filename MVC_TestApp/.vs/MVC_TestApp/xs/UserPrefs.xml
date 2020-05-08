@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{24DBDC2D-13D0-4FFB-BCDB-5405F682FF5F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVC_TestApp/Controllers/OrderController.cs">
+    <Files>
+      <File FileName="MVC_TestApp/Controllers/OrderController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVC_TestApp" expanded="True">
+            <Node name="MVC_TestApp" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="OrderController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MVC__TestApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
